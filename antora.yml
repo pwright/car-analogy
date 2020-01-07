@@ -1,0 +1,7 @@
+name: docs
+title: Antora GitHub Actions
+version: 0.1
+nav:
+  - modules/ROOT/nav.adoc
+
+start_ROOT: ROOT:index.adoc

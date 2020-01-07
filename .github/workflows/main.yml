@@ -1,0 +1,24 @@
+name: A workflow for my Hello World file
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest    
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: run script
+        uses: ./action-a
+        env:
+          MY_NAME: "Red Hat"
+      - name: '[DEPLOY] .nojekyll'
+        run: touch build/site/.nojekyll
+
+      - name: '[DEPLOY] to GH-PAGES'
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.TOLKEN }}
+          BASE_BRANCH: master # The branch the action should deploy from.
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build/site # The folder the action should deploy.
+
+        

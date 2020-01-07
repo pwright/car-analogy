@@ -1,0 +1,25 @@
+[id="using-github-actions_{context}"]
+= Using GitHub actions to publish AsciiDoc
+
+[IMPORTANT]
+====
+This document is a work in progress.
+====
+
+You can use https://docs.angora.org[Antora] to publish a documentation set that spans multiple repos:
+
+. Create a repo from this repo.
+
+. Edit the `local-site.yml` to match the content that you want to publish.
+
+. Add a token to your repo.
+
+. Set up GitHub Pages.
+
+. Browse to your web site.
+
+
+== Additional resources
+
+* https://github.com/features/actions[Actions]
+* https://pages.github.com/[Pages]
