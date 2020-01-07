@@ -1,0 +1,26 @@
+@startmindmap
+skinparam monochrome true 
+
+
+* Car
+' index.adoc
+** Steering wheel
+*** Cluster SSO
+*** Customer Application SSO0
+** Engines
+*** Fuse
+*** AMQ
+*** 3scale
+*** CRW
+*** Launcher
+
+left side
+
+** Gears
+*** Automatic
+**** Pipelines
+*** Manual
+**** Jenkins
+*** Wheels
+
+@endmindmap

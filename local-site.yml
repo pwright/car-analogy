@@ -1,6 +1,6 @@
 site:
-  title: Antora Actions
-  url: https://pwright.github.io/antora-actions
+  title: Integreatly
+  url: https://pwright.github.io/car-analogy
   start_page: docs::index
 content:
   sources:
@@ -10,3 +10,12 @@ ui:
   bundle:
     url: ./ui-bundle.zip
     snapshot: true
+
+
+
+asciidoc:
+  attributes:
+    plantuml-server-url: 'http://www.plantuml.com/plantuml'
+    plantuml-fetch-diagram: true
+  extensions:
+    - asciidoctor-plantuml
