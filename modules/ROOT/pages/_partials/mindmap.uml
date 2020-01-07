@@ -6,7 +6,7 @@ skinparam monochrome true
 ' index.adoc
 ** Steering wheel
 *** Cluster SSO
-*** Customer Application SSO0
+*** Customer Application SSO
 ** Engines
 *** Fuse
 *** AMQ
@@ -22,5 +22,6 @@ left side
 *** Manual
 **** Jenkins
 *** Wheels
+*** -----
 
 @endmindmap

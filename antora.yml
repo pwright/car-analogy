@@ -1,5 +1,5 @@
 name: docs
-title: Antora GitHub Actions
+title: What is Integreatly
 version: 0.1
 nav:
   - modules/ROOT/nav.adoc

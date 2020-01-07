@@ -1,10 +1,31 @@
 
-= What should we document in Integreatly
+= What should we document in Integreatly?
 
 [IMPORTANT]
 ====
 What if someone from the year 1800 was presented with a Tesla?
 ====
+
+
+[%header,cols=2*] 
+|===
+|What is it?
+|What can I do with it?
+
+a| image::car.png[]
+a| 
+
+* Are the roads suitable?
+* How do I open the door?
+
+a| image::integreatly.png[]
+a| 
+
+* Do your engineers undertand all the components?
+* How do I add users with appropriate roles and responsibilities?
+
+|===
+
 
 
 [plantuml,mindmap,svg,subs="attributes+"]

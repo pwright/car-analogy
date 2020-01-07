@@ -1,1 +1,17 @@
-* xref:index.adoc[Home]
+// Autogenterated by pop-nav.sh using nav.uml file, do not edit
+*  xref:index.adoc[ Car]
+** Steering wheel
+*** Cluster SSO
+*** Customer Application SSO
+** Engines
+*** Fuse
+*** AMQ
+*** 3scale
+*** CRW
+*** Launcher
+** Gears
+*** Automatic
+**** Pipelines
+*** Manual
+**** Jenkins
+*** Wheels
