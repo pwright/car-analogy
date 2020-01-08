@@ -17,12 +17,21 @@ a|
 
 * Are the roads suitable?
 * How do I open the door?
+* How do I start the engine?
+* How do I make the car move?
+* How do I control the car direction?
+* How do I control the speed?
+* How do I stop the car?
+* Why should I stop the engine?
+* How do I fuel the car?
 
 a| image::integreatly.png[]
 a| 
 
 * Do your engineers undertand all the components?
 * How do I add users with appropriate roles and responsibilities?
+* How do I work with more than one cluster?
+
 
 |===
 

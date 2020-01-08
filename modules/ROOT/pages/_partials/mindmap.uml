@@ -2,7 +2,7 @@
 skinparam monochrome true 
 
 
-* Car
+* Car analogy
 ' index.adoc
 ** Steering wheel
 *** Cluster SSO
@@ -21,7 +21,7 @@ left side
 **** Pipelines
 *** Manual
 **** Jenkins
-*** Wheels
+** Wheels
 *** -----
 
 @endmindmap
